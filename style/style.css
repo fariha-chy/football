@@ -49,6 +49,7 @@ main {margin:30px 90px 130px ;}
     border-radius:  10px 10px 0 0;}
 .blog {border: 1px solid gray;
     border-radius: 10px;
+    background-color: white;
     width: 280px;
     height: auto;}
 .blog-info {padding: 13px;}
