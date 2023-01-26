@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body {font-family: 'Poppins', sans-serif;
+    background-color: gainsboro;}
+main {margin:30px 90px 130px ;}
+/* -------- Cover Section -------- */
+.cover-section {
+    background-color: rgb(3, 3, 73);
+    border-radius: 20px;}
+.cover {display: flex;}
+.cover-title {width: 80%;
+    color: whitesmoke;
+    padding: 110px 0px 106px 110px ;}
+.cover-section .cover-title h1{ font-size: 40px;}
+.cover-section .cover-photo img {width: 90%;} 
+.button {border: none;
+    background-color: white;
+    color: rgb(44, 44, 44);
+    font-size: 18px;
+    padding:10px 20px ;
+    border-radius: 5px;}
+    /* ---------- Blog Section ---------- */
+.blog-section{display: flex;
+    justify-content: space-between;
+    margin-top: 100px;}   
+.blog-section .manu {background-color: navy;
+    height: 250px; width: 250px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns:repeat(1, 1fr);
+    grid-template-areas: 10px;
+    justify-content: space-around;}
+.manu a { text-decoration: none;
+    background-color: aquamarine;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns:repeat(1, 1fr);
+    color: black;
+    margin: 12px;
+    padding: 15px; 
+    justify-items: center;
+    font-weight: 600;}
+/* -------- Blog Section ------- */
+.blogs {display: grid;
+    grid-template-columns:repeat( 3, 1fr);
+    gap: 20px;}
+.blogs .blog img {width: 280px;
+    height: 180px;
+    border-radius:  10px 10px 0 0;}
+.blog {border: 1px solid gray;
+    border-radius: 10px;
+    width: 280px;
+    height: auto;}
+.blog-info {padding: 10px;}
+    /* --------- Upcoming Match Section --------- */
+.match-section{display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 100px;}
+.match-section .manu { background-color: navy;
+    height: 250px; width: 250px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns:repeat(1, 1fr);
+    grid-template-areas: 10px;}
+.match-section .manu a{ text-decoration: none;
+    background-color: aquamarine;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns:repeat(1, 1fr);
+    color: black;
+    margin: 15px;
+    padding: 15px; 
+    justify-items: center;
+    font-weight: 600;}
+.match-list .match img {width: 70px;
+    height: auto;}
+.match {border: 1px solid gray;
+    border-radius: 10PX;
+    width: 220px;
+    height: 150px;
+    padding: 30px;
+    text-align: center;
+background-color: white;}
+.match-vs {display: flex;
+    justify-content: space-around;}
+.match-list {display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;}
