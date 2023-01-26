@@ -98,3 +98,25 @@ background-color: white;}
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;}
 .match .timing {font-size: small;}
+    /* --------- Footer Section --------- */
+.footer-section {margin: 0%;
+    padding: 50px;
+    background-color: rgb(3, 3, 73);
+    color: whitesmoke;
+    text-align: center;}
+.footer-section .footer-item a{text-decoration: none;
+    color: whitesmoke;
+    margin-right: 20px;}
+.footer-item,
+.social-logo{display: flex;
+    justify-content: center;}
+.footer-section .social-logo img {height: 40px;
+    margin: 10px;}
+/* ------- media -------- */
+
+
+
+
+
+
+
