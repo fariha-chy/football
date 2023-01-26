@@ -28,18 +28,18 @@ main {margin:30px 90px 130px ;}
     border-radius: 10px;
     display: grid;
     grid-template-columns:repeat(1, 1fr);
-    grid-template-areas: 10px;
-    justify-content: space-around;}
-.manu a { text-decoration: none;
-    background-color: aquamarine;
+    align-items: center;}
+.blog-section .manu a {text-decoration: none;
+    background-color: whitesmoke;
     border-radius: 10px;
     display: grid;
+    text-align: center;
     grid-template-columns:repeat(1, 1fr);
     color: black;
     margin: 12px;
-    padding: 15px; 
-    justify-items: center;
+    padding: 13px;
     font-weight: 600;}
+.blog-section .manu .active:hover {background-color: lightblue;}
 /* -------- Blog Section ------- */
 .blogs {display: grid;
     grid-template-columns:repeat( 3, 1fr);
@@ -51,36 +51,38 @@ main {margin:30px 90px 130px ;}
     border-radius: 10px;
     width: 280px;
     height: auto;}
-.blog-info {padding: 10px;}
+.blog-info {padding: 13px;}
 .blog .blog-info a {text-decoration: none;
     padding: 5px 14px;
     border: 1px solid black;
     border-radius: 5px;
-    font-weight: 500;
+    font-size: medium;
     color: black;}
-.blog .time {font-size:medium;}
-.blog .time span{margin-left: 20px;}
+.blog .time {font-size:small;}
+.blog .time .hour {margin-right: 20px;}
     /* --------- Upcoming Match Section --------- */
 .match-section{display: grid;
     grid-template-columns: repeat(2,1fr);
     margin-top: 100px;}
-.match-section .manu { background-color: navy;
-    height: 250px; width: 250px;
+.match-section .manu {background-color: navy;
+    height: 250px; 
+    width: 250px;
     border-radius: 10px;
     display: grid;
     grid-template-columns:repeat(1, 1fr);
-    grid-template-areas: 10px;}
+    align-items: center;}
 .match-section .manu a{ text-decoration: none;
-    background-color: aquamarine;
+    background-color: whitesmoke;
     border-radius: 10px;
     display: grid;
+    text-align: center;
     grid-template-columns:repeat(1, 1fr);
     color: black;
-    margin: 15px;
-    padding: 15px; 
-    justify-items: center;
+    margin: 12px;
+    padding: 13px;
     font-weight: 600;}
-.match-list .match img {width: 70px;
+.match-section .manu .active:hover {background-color: lightblue;}
+.match-list .match img {width: 80px;
     height: auto;}
 .match {border: 1px solid gray;
     border-radius: 10PX;
@@ -93,4 +95,5 @@ background-color: white;}
     justify-content: space-around;}
 .match-list {display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 15px;}
+    gap: 20px;}
+.match .timing {font-size: small;}
