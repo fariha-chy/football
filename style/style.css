@@ -106,14 +106,35 @@ background-color: white;}
     text-align: center;}
 .footer-section .footer-item a{text-decoration: none;
     color: whitesmoke;
-    margin-right: 20px;}
+    margin-right: 20px;
+    position: relative;}
 .footer-item,
 .social-logo{display: flex;
     justify-content: center;}
 .footer-section .social-logo img {height: 40px;
     margin: 10px;}
-/* ------- media -------- */
-
+/* ------- media queries -------- */
+        /* --- mobile veiw--- */
+@media screen and (max-width: 576px) {
+    .blog-section .bolgs { display: block;
+    grid-template-columns: repeat(1, 1fr);}
+    .footer-section .footer-item 
+    {grid-template-columns: repeat (1, 1fr) ;
+    }}
+        /* --- Tab veiw--- */
+@media screen and (min-width: 576px) and (max-width: 992px) 
+    {
+    .blog-section .bolgs {display: grid;
+        grid-template-columns: repeat(2, 1fr);}
+    .footer-section .footer-item 
+    {grid-template-columns: repeat (4, 1fr) ;
+    }}
+        /* --- desktop veiw --- */
+@media screen and (min-width: 992px) 
+    {.blog-section .blogs {grid-template-columns: repeat(3, 1fr);}
+    .footer-section .footer-item 
+    {
+    }}
 
 
 
